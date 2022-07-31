@@ -7,12 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F695F4E289592CB005F5F49 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F4D289592CB005F5F49 /* GoogleService-Info-2.plist */; };
+		8F695F502895BF8A005F5F49 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F695F4F2895BF8A005F5F49 /* ShopTableViewCell.swift */; };
+		8F695F652895F949005F5F49 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F522895F949005F5F49 /* Poppins-ExtraLight.ttf */; };
+		8F695F662895F949005F5F49 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F532895F949005F5F49 /* Poppins-ThinItalic.ttf */; };
+		8F695F672895F949005F5F49 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F542895F949005F5F49 /* Poppins-ExtraLightItalic.ttf */; };
+		8F695F682895F949005F5F49 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F552895F949005F5F49 /* Poppins-BoldItalic.ttf */; };
+		8F695F692895F949005F5F49 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F562895F949005F5F49 /* Poppins-Light.ttf */; };
+		8F695F6A2895F949005F5F49 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F572895F949005F5F49 /* Poppins-Medium.ttf */; };
+		8F695F6B2895F949005F5F49 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F582895F949005F5F49 /* Poppins-SemiBoldItalic.ttf */; };
+		8F695F6C2895F949005F5F49 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F592895F949005F5F49 /* Poppins-ExtraBoldItalic.ttf */; };
+		8F695F6D2895F949005F5F49 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F5A2895F949005F5F49 /* Poppins-ExtraBold.ttf */; };
+		8F695F6E2895F949005F5F49 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F5B2895F949005F5F49 /* Poppins-BlackItalic.ttf */; };
+		8F695F6F2895F949005F5F49 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F5C2895F949005F5F49 /* OFL.txt */; };
+		8F695F702895F949005F5F49 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F5D2895F949005F5F49 /* Poppins-Regular.ttf */; };
+		8F695F712895F949005F5F49 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F5E2895F949005F5F49 /* Poppins-LightItalic.ttf */; };
+		8F695F722895F949005F5F49 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F5F2895F949005F5F49 /* Poppins-Bold.ttf */; };
+		8F695F732895F949005F5F49 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F602895F949005F5F49 /* Poppins-Black.ttf */; };
+		8F695F742895F949005F5F49 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F612895F949005F5F49 /* Poppins-Thin.ttf */; };
+		8F695F752895F949005F5F49 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F622895F949005F5F49 /* Poppins-SemiBold.ttf */; };
+		8F695F762895F949005F5F49 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F632895F949005F5F49 /* Poppins-Italic.ttf */; };
+		8F695F772895F949005F5F49 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F695F642895F949005F5F49 /* Poppins-MediumItalic.ttf */; };
 		8F6C96182895888900A4D7B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C96172895888900A4D7B1 /* AppDelegate.swift */; };
 		8F6C961A2895888900A4D7B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C96192895888900A4D7B1 /* SceneDelegate.swift */; };
 		8F6C961C2895888900A4D7B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C961B2895888900A4D7B1 /* ViewController.swift */; };
 		8F6C961F2895888900A4D7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C961D2895888900A4D7B1 /* Main.storyboard */; };
 		8F6C96212895888900A4D7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C96202895888900A4D7B1 /* Assets.xcassets */; };
 		8F6C96242895888A00A4D7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C96222895888A00A4D7B1 /* LaunchScreen.storyboard */; };
+
+		8F8961E528961C890092169B /* ThuvaraganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8961E428961C890092169B /* ThuvaraganViewController.swift */; };
 		8F6C962C2895893700A4D7B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C962B2895893700A4D7B1 /* GoogleService-Info.plist */; };
 		8F6C962F28958A2500A4D7B1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C962E28958A2500A4D7B1 /* FirebaseAnalytics */; };
 		8F6C963128958A2500A4D7B1 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963028958A2500A4D7B1 /* FirebaseAnalyticsSwift */; };
@@ -21,9 +44,31 @@
 		8F6C963728958A2500A4D7B1 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963628958A2500A4D7B1 /* FirebaseDatabaseSwift */; };
 		8F6C963928958A2500A4D7B1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963828958A2500A4D7B1 /* FirebaseFirestore */; };
 		8F6C963B28958A2500A4D7B1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963A28958A2500A4D7B1 /* FirebaseFirestoreSwift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F695F4D289592CB005F5F49 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		8F695F4F2895BF8A005F5F49 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
+		8F695F522895F949005F5F49 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		8F695F532895F949005F5F49 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8F695F542895F949005F5F49 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		8F695F552895F949005F5F49 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8F695F562895F949005F5F49 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		8F695F572895F949005F5F49 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		8F695F582895F949005F5F49 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8F695F592895F949005F5F49 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8F695F5A2895F949005F5F49 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8F695F5B2895F949005F5F49 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8F695F5C2895F949005F5F49 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		8F695F5D2895F949005F5F49 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		8F695F5E2895F949005F5F49 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		8F695F5F2895F949005F5F49 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		8F695F602895F949005F5F49 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		8F695F612895F949005F5F49 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		8F695F622895F949005F5F49 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		8F695F632895F949005F5F49 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		8F695F642895F949005F5F49 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		8F6C96142895888900A4D7B1 /* StepAhead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepAhead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6C96172895888900A4D7B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F6C96192895888900A4D7B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +77,11 @@
 		8F6C96202895888900A4D7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F6C96232895888A00A4D7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F6C96252895888A00A4D7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		8F8961E428961C890092169B /* ThuvaraganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuvaraganViewController.swift; sourceTree = "<group>"; };
+
 		8F6C962B2895893700A4D7B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,19 +89,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6C963728958A2500A4D7B1 /* FirebaseDatabaseSwift in Frameworks */,
-				8F6C963128958A2500A4D7B1 /* FirebaseAnalyticsSwift in Frameworks */,
-				8F6C963328958A2500A4D7B1 /* FirebaseAuth in Frameworks */,
-				8F6C963B28958A2500A4D7B1 /* FirebaseFirestoreSwift in Frameworks */,
-				8F6C963528958A2500A4D7B1 /* FirebaseDatabase in Frameworks */,
-				8F6C962F28958A2500A4D7B1 /* FirebaseAnalytics in Frameworks */,
-				8F6C963928958A2500A4D7B1 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F695F512895F949005F5F49 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				8F695F522895F949005F5F49 /* Poppins-ExtraLight.ttf */,
+				8F695F532895F949005F5F49 /* Poppins-ThinItalic.ttf */,
+				8F695F542895F949005F5F49 /* Poppins-ExtraLightItalic.ttf */,
+				8F695F552895F949005F5F49 /* Poppins-BoldItalic.ttf */,
+				8F695F562895F949005F5F49 /* Poppins-Light.ttf */,
+				8F695F572895F949005F5F49 /* Poppins-Medium.ttf */,
+				8F695F582895F949005F5F49 /* Poppins-SemiBoldItalic.ttf */,
+				8F695F592895F949005F5F49 /* Poppins-ExtraBoldItalic.ttf */,
+				8F695F5A2895F949005F5F49 /* Poppins-ExtraBold.ttf */,
+				8F695F5B2895F949005F5F49 /* Poppins-BlackItalic.ttf */,
+				8F695F5C2895F949005F5F49 /* OFL.txt */,
+				8F695F5D2895F949005F5F49 /* Poppins-Regular.ttf */,
+				8F695F5E2895F949005F5F49 /* Poppins-LightItalic.ttf */,
+				8F695F5F2895F949005F5F49 /* Poppins-Bold.ttf */,
+				8F695F602895F949005F5F49 /* Poppins-Black.ttf */,
+				8F695F612895F949005F5F49 /* Poppins-Thin.ttf */,
+				8F695F622895F949005F5F49 /* Poppins-SemiBold.ttf */,
+				8F695F632895F949005F5F49 /* Poppins-Italic.ttf */,
+				8F695F642895F949005F5F49 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
 		8F6C960B2895888900A4D7B1 = {
 			isa = PBXGroup;
 			children = (
@@ -72,14 +140,21 @@
 		8F6C96162895888900A4D7B1 /* StepAhead */ = {
 			isa = PBXGroup;
 			children = (
+				8F8961E428961C890092169B /* ThuvaraganViewController.swift */,
 				8F6C96172895888900A4D7B1 /* AppDelegate.swift */,
 				8F6C96192895888900A4D7B1 /* SceneDelegate.swift */,
+				8F695F4D289592CB005F5F49 /* GoogleService-Info-2.plist */,
 				8F6C961B2895888900A4D7B1 /* ViewController.swift */,
 				8F6C961D2895888900A4D7B1 /* Main.storyboard */,
 				8F6C96202895888900A4D7B1 /* Assets.xcassets */,
 				8F6C96222895888A00A4D7B1 /* LaunchScreen.storyboard */,
+
+
 				8F6C962B2895893700A4D7B1 /* GoogleService-Info.plist */,
+
 				8F6C96252895888A00A4D7B1 /* Info.plist */,
+				8F695F4F2895BF8A005F5F49 /* ShopTableViewCell.swift */,
+				8F695F512895F949005F5F49 /* Poppins */,
 			);
 			path = StepAhead;
 			sourceTree = "<group>";
@@ -101,13 +176,6 @@
 			);
 			name = StepAhead;
 			packageProductDependencies = (
-				8F6C962E28958A2500A4D7B1 /* FirebaseAnalytics */,
-				8F6C963028958A2500A4D7B1 /* FirebaseAnalyticsSwift */,
-				8F6C963228958A2500A4D7B1 /* FirebaseAuth */,
-				8F6C963428958A2500A4D7B1 /* FirebaseDatabase */,
-				8F6C963628958A2500A4D7B1 /* FirebaseDatabaseSwift */,
-				8F6C963828958A2500A4D7B1 /* FirebaseFirestore */,
-				8F6C963A28958A2500A4D7B1 /* FirebaseFirestoreSwift */,
 			);
 			productName = StepAhead;
 			productReference = 8F6C96142895888900A4D7B1 /* StepAhead.app */;
@@ -138,7 +206,6 @@
 			);
 			mainGroup = 8F6C960B2895888900A4D7B1;
 			packageReferences = (
-				8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 8F6C96152895888900A4D7B1 /* Products */;
 			projectDirPath = "";
@@ -154,10 +221,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F695F712895F949005F5F49 /* Poppins-LightItalic.ttf in Resources */,
+				8F695F722895F949005F5F49 /* Poppins-Bold.ttf in Resources */,
+				8F695F6F2895F949005F5F49 /* OFL.txt in Resources */,
+				8F695F6C2895F949005F5F49 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				8F695F6B2895F949005F5F49 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				8F695F732895F949005F5F49 /* Poppins-Black.ttf in Resources */,
+				8F695F652895F949005F5F49 /* Poppins-ExtraLight.ttf in Resources */,
+				8F695F692895F949005F5F49 /* Poppins-Light.ttf in Resources */,
+				8F695F672895F949005F5F49 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				8F695F742895F949005F5F49 /* Poppins-Thin.ttf in Resources */,
 				8F6C96242895888A00A4D7B1 /* LaunchScreen.storyboard in Resources */,
+				8F695F702895F949005F5F49 /* Poppins-Regular.ttf in Resources */,
 				8F6C96212895888900A4D7B1 /* Assets.xcassets in Resources */,
+
+				8F695F662895F949005F5F49 /* Poppins-ThinItalic.ttf in Resources */,
+				8F695F6E2895F949005F5F49 /* Poppins-BlackItalic.ttf in Resources */,
+				8F695F752895F949005F5F49 /* Poppins-SemiBold.ttf in Resources */,
+				8F695F4E289592CB005F5F49 /* GoogleService-Info-2.plist in Resources */,
+
 				8F6C962C2895893700A4D7B1 /* GoogleService-Info.plist in Resources */,
+
 				8F6C961F2895888900A4D7B1 /* Main.storyboard in Resources */,
+				8F695F762895F949005F5F49 /* Poppins-Italic.ttf in Resources */,
+				8F695F682895F949005F5F49 /* Poppins-BoldItalic.ttf in Resources */,
+				8F695F6A2895F949005F5F49 /* Poppins-Medium.ttf in Resources */,
+				8F695F772895F949005F5F49 /* Poppins-MediumItalic.ttf in Resources */,
+				8F695F6D2895F949005F5F49 /* Poppins-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8961E528961C890092169B /* ThuvaraganViewController.swift in Sources */,
 				8F6C961C2895888900A4D7B1 /* ViewController.swift in Sources */,
 				8F6C96182895888900A4D7B1 /* AppDelegate.swift in Sources */,
 				8F6C961A2895888900A4D7B1 /* SceneDelegate.swift in Sources */,
+				8F695F502895BF8A005F5F49 /* ShopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,55 +478,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 9.3.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8F6C962E28958A2500A4D7B1 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		8F6C963028958A2500A4D7B1 /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		8F6C963228958A2500A4D7B1 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		8F6C963428958A2500A4D7B1 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		8F6C963628958A2500A4D7B1 /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		8F6C963828958A2500A4D7B1 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		8F6C963A28958A2500A4D7B1 /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8F6C962D28958A2500A4D7B1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F6C960C2895888900A4D7B1 /* Project object */;
 }
