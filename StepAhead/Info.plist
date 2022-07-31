@@ -4,7 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Poppins_Regular.ttrf</string>
+		<string>Poppins_Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
