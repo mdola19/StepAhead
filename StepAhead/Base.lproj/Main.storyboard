@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -89,19 +90,21 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="S3j-VP-sgd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="jed-Oq-XMw"/>
                         <segue destination="sV6-lp-LSG" kind="relationship" relationship="viewControllers" id="cOm-X0-tpc"/>
                         <segue destination="jG7-lW-29c" kind="relationship" relationship="viewControllers" id="i8c-X3-kIb"/>
+                        <segue destination="Aoa-aT-Aws" kind="relationship" relationship="viewControllers" id="Xy5-XE-j2G"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sfF-Oa-WER" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="691" y="98"/>
         </scene>
-        <!--Item-->
+        <!--Thuvaragan View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ThuvaraganViewController" customModule="StepAhead" customModuleProvider="target" sceneMemberID="viewController">
@@ -194,7 +197,9 @@
                             <constraint firstItem="ORv-EV-EF8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vcc-E4-pY0"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="AnW-bv-Y7k"/>
+                    <tabBarItem key="tabBarItem" systemItem="topRated" id="AnW-bv-Y7k">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="tableView" destination="ORv-EV-EF8" id="BjL-9M-eQB"/>
                     </connections>
@@ -203,7 +208,7 @@
             </objects>
             <point key="canvasLocation" x="307" y="834"/>
         </scene>
-        <!--Item-->
+        <!--Second View Controller-->
         <scene sceneID="Q6W-JO-NlV">
             <objects>
                 <viewController storyboardIdentifier="2nd_vc" id="sV6-lp-LSG" customClass="SecondViewController" customModule="StepAhead" customModuleProvider="target" sceneMemberID="viewController">
@@ -306,7 +311,9 @@
                         <viewLayoutGuide key="safeArea" id="kcl-b3-Lj0"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="4y8-Jo-8ml"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="4y8-Jo-8ml">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hPS-d6-MFC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -415,10 +422,10 @@
             </objects>
             <point key="canvasLocation" x="-1368.1159420289855" y="97.767857142857139"/>
         </scene>
-        <!--Item-->
+        <!--Ishnu View Controller-->
         <scene sceneID="iR5-vr-8OY">
             <objects>
-                <viewController id="jG7-lW-29c" customClass="IshnuViewController" customModule="StepAhead" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="bikeRental" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jG7-lW-29c" customClass="IshnuViewController" customModule="StepAhead" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IH9-ib-unf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -455,7 +462,7 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TEK-qm-P0J">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TEK-qm-P0J">
                                                     <rect key="frame" x="0.0" y="8" width="362" height="145"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="362" id="14G-Ff-4Wr"/>
@@ -511,7 +518,9 @@
                             <constraint firstItem="Mro-Id-JLL" firstAttribute="centerX" secondItem="IH9-ib-unf" secondAttribute="centerX" id="pcM-MW-j1z"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="3PX-5m-BTe"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="3PX-5m-BTe">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="bikeTableView" destination="Mro-Id-JLL" id="mTG-uD-1i1"/>
                         <segue destination="Rbu-aZ-9sv" kind="show" identifier="DetailSegue" id="XKi-fp-vcb"/>
@@ -711,6 +720,38 @@
             </objects>
             <point key="canvasLocation" x="-694.20289855072474" y="97.767857142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="DgV-x0-JXu">
+            <objects>
+                <viewController id="Aoa-aT-Aws" customClass="ViewController" customModule="StepAhead" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TTu-ju-efX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ngj-jD-3Uv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gHH-8c-vtm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ngj-jD-3Uv" firstAttribute="top" secondItem="TTu-ju-efX" secondAttribute="top" id="6AL-SH-on9"/>
+                            <constraint firstItem="Ngj-jD-3Uv" firstAttribute="leading" secondItem="TTu-ju-efX" secondAttribute="leading" id="Pnp-D3-BMZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ngj-jD-3Uv" secondAttribute="trailing" id="Xvl-7z-YS7"/>
+                            <constraint firstAttribute="bottom" secondItem="Ngj-jD-3Uv" secondAttribute="bottom" id="rui-6n-o3o"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="24r-Hp-aLe">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="mapView" destination="Ngj-jD-3Uv" id="eNw-Ze-vR8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t1U-4G-Qaa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2797.1014492753625" y="847.76785714285711"/>
+        </scene>
     </scenes>
     <resources>
         <image name="FINAL Copy of Step Ahead" width="500" height="500"/>
@@ -721,5 +762,8 @@
         <image name="fuelpump.fill" catalog="system" width="128" height="128"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

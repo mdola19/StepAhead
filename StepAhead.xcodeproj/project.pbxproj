@@ -44,6 +44,8 @@
 		8F6C969A289651B000A4D7B1 /* IshnuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C9699289651B000A4D7B1 /* IshnuViewController.swift */; };
 		8F6C969C2896520F00A4D7B1 /* BikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C969B2896520F00A4D7B1 /* BikeTableViewCell.swift */; };
 		8F6C969E289654C800A4D7B1 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C969D289654C800A4D7B1 /* PopUpViewController.swift */; };
+		8F6C96A32896C85100A4D7B1 /* newLocations.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C96A02896C85000A4D7B1 /* newLocations.csv */; };
+		8F6C96A62896CB5600A4D7B1 /* footsteps2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C96A52896CB5500A4D7B1 /* footsteps2.png */; };
 		8F8961E528961C890092169B /* ThuvaraganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8961E428961C890092169B /* ThuvaraganViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,8 @@
 		8F6C9699289651B000A4D7B1 /* IshnuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshnuViewController.swift; sourceTree = "<group>"; };
 		8F6C969B2896520F00A4D7B1 /* BikeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTableViewCell.swift; sourceTree = "<group>"; };
 		8F6C969D289654C800A4D7B1 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8F6C96A02896C85000A4D7B1 /* newLocations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = newLocations.csv; path = ../../../Downloads/Manjots_Code/newLocations.csv; sourceTree = "<group>"; };
+		8F6C96A52896CB5500A4D7B1 /* footsteps2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = footsteps2.png; path = ../../footsteps2.png; sourceTree = "<group>"; };
 		8F8961E428961C890092169B /* ThuvaraganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuvaraganViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,10 +150,12 @@
 		8F6C96162895888900A4D7B1 /* StepAhead */ = {
 			isa = PBXGroup;
 			children = (
+				8F6C96A02896C85000A4D7B1 /* newLocations.csv */,
 				8F8961E428961C890092169B /* ThuvaraganViewController.swift */,
 				8F6C96172895888900A4D7B1 /* AppDelegate.swift */,
 				8F6C96192895888900A4D7B1 /* SceneDelegate.swift */,
 				8F6C961B2895888900A4D7B1 /* ViewController.swift */,
+				8F6C96A52896CB5500A4D7B1 /* footsteps2.png */,
 				8F6C961D2895888900A4D7B1 /* Main.storyboard */,
 				8F6C96202895888900A4D7B1 /* Assets.xcassets */,
 				8F6C96222895888A00A4D7B1 /* LaunchScreen.storyboard */,
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6C96A32896C85100A4D7B1 /* newLocations.csv in Resources */,
 				8F695F712895F949005F5F49 /* Poppins-LightItalic.ttf in Resources */,
 				8F695F722895F949005F5F49 /* Poppins-Bold.ttf in Resources */,
 				8F695F6F2895F949005F5F49 /* OFL.txt in Resources */,
@@ -244,6 +251,7 @@
 				8F695F692895F949005F5F49 /* Poppins-Light.ttf in Resources */,
 				8F695F672895F949005F5F49 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				8F695F742895F949005F5F49 /* Poppins-Thin.ttf in Resources */,
+				8F6C96A62896CB5600A4D7B1 /* footsteps2.png in Resources */,
 				8F6C96242895888A00A4D7B1 /* LaunchScreen.storyboard in Resources */,
 				8F695F702895F949005F5F49 /* Poppins-Regular.ttf in Resources */,
 				8F6C96212895888900A4D7B1 /* Assets.xcassets in Resources */,
