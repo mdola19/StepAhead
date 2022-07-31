@@ -34,7 +34,17 @@
 		8F6C961F2895888900A4D7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C961D2895888900A4D7B1 /* Main.storyboard */; };
 		8F6C96212895888900A4D7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C96202895888900A4D7B1 /* Assets.xcassets */; };
 		8F6C96242895888A00A4D7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C96222895888A00A4D7B1 /* LaunchScreen.storyboard */; };
+
 		8F8961E528961C890092169B /* ThuvaraganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8961E428961C890092169B /* ThuvaraganViewController.swift */; };
+		8F6C962C2895893700A4D7B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F6C962B2895893700A4D7B1 /* GoogleService-Info.plist */; };
+		8F6C962F28958A2500A4D7B1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C962E28958A2500A4D7B1 /* FirebaseAnalytics */; };
+		8F6C963128958A2500A4D7B1 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963028958A2500A4D7B1 /* FirebaseAnalyticsSwift */; };
+		8F6C963328958A2500A4D7B1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963228958A2500A4D7B1 /* FirebaseAuth */; };
+		8F6C963528958A2500A4D7B1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963428958A2500A4D7B1 /* FirebaseDatabase */; };
+		8F6C963728958A2500A4D7B1 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963628958A2500A4D7B1 /* FirebaseDatabaseSwift */; };
+		8F6C963928958A2500A4D7B1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963828958A2500A4D7B1 /* FirebaseFirestore */; };
+		8F6C963B28958A2500A4D7B1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C963A28958A2500A4D7B1 /* FirebaseFirestoreSwift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +77,11 @@
 		8F6C96202895888900A4D7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F6C96232895888A00A4D7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F6C96252895888A00A4D7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		8F8961E428961C890092169B /* ThuvaraganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuvaraganViewController.swift; sourceTree = "<group>"; };
+
+		8F6C962B2895893700A4D7B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +148,10 @@
 				8F6C961D2895888900A4D7B1 /* Main.storyboard */,
 				8F6C96202895888900A4D7B1 /* Assets.xcassets */,
 				8F6C96222895888A00A4D7B1 /* LaunchScreen.storyboard */,
+
+
+				8F6C962B2895893700A4D7B1 /* GoogleService-Info.plist */,
+
 				8F6C96252895888A00A4D7B1 /* Info.plist */,
 				8F695F4F2895BF8A005F5F49 /* ShopTableViewCell.swift */,
 				8F695F512895F949005F5F49 /* Poppins */,
@@ -216,10 +234,14 @@
 				8F6C96242895888A00A4D7B1 /* LaunchScreen.storyboard in Resources */,
 				8F695F702895F949005F5F49 /* Poppins-Regular.ttf in Resources */,
 				8F6C96212895888900A4D7B1 /* Assets.xcassets in Resources */,
+
 				8F695F662895F949005F5F49 /* Poppins-ThinItalic.ttf in Resources */,
 				8F695F6E2895F949005F5F49 /* Poppins-BlackItalic.ttf in Resources */,
 				8F695F752895F949005F5F49 /* Poppins-SemiBold.ttf in Resources */,
 				8F695F4E289592CB005F5F49 /* GoogleService-Info-2.plist in Resources */,
+
+				8F6C962C2895893700A4D7B1 /* GoogleService-Info.plist in Resources */,
+
 				8F6C961F2895888900A4D7B1 /* Main.storyboard in Resources */,
 				8F695F762895F949005F5F49 /* Poppins-Italic.ttf in Resources */,
 				8F695F682895F949005F5F49 /* Poppins-BoldItalic.ttf in Resources */,
