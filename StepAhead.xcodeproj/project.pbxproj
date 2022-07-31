@@ -40,6 +40,10 @@
 		8F6C969228963C7A00A4D7B1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C969128963C7A00A4D7B1 /* FirebaseAnalytics */; };
 		8F6C969428963C7A00A4D7B1 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C969328963C7A00A4D7B1 /* FirebaseAnalyticsSwift */; };
 		8F6C969628963C7A00A4D7B1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8F6C969528963C7A00A4D7B1 /* FirebaseAuth */; };
+		8F6C96982896519300A4D7B1 /* BikeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C96972896519300A4D7B1 /* BikeData.swift */; };
+		8F6C969A289651B000A4D7B1 /* IshnuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C9699289651B000A4D7B1 /* IshnuViewController.swift */; };
+		8F6C969C2896520F00A4D7B1 /* BikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C969B2896520F00A4D7B1 /* BikeTableViewCell.swift */; };
+		8F6C969E289654C800A4D7B1 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C969D289654C800A4D7B1 /* PopUpViewController.swift */; };
 		8F8961E528961C890092169B /* ThuvaraganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8961E428961C890092169B /* ThuvaraganViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +80,10 @@
 		8F6C968A289636A800A4D7B1 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		8F6C968C289636CB00A4D7B1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8F6C968E289636D900A4D7B1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F6C96972896519300A4D7B1 /* BikeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeData.swift; sourceTree = "<group>"; };
+		8F6C9699289651B000A4D7B1 /* IshnuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshnuViewController.swift; sourceTree = "<group>"; };
+		8F6C969B2896520F00A4D7B1 /* BikeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTableViewCell.swift; sourceTree = "<group>"; };
+		8F6C969D289654C800A4D7B1 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		8F8961E428961C890092169B /* ThuvaraganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuvaraganViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +160,10 @@
 				8F6C968A289636A800A4D7B1 /* LaunchViewController.swift */,
 				8F6C968C289636CB00A4D7B1 /* SignInViewController.swift */,
 				8F6C968E289636D900A4D7B1 /* LoginViewController.swift */,
+				8F6C96972896519300A4D7B1 /* BikeData.swift */,
+				8F6C9699289651B000A4D7B1 /* IshnuViewController.swift */,
+				8F6C969B2896520F00A4D7B1 /* BikeTableViewCell.swift */,
+				8F6C969D289654C800A4D7B1 /* PopUpViewController.swift */,
 			);
 			path = StepAhead;
 			sourceTree = "<group>";
@@ -255,13 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6C969C2896520F00A4D7B1 /* BikeTableViewCell.swift in Sources */,
 				8F6C968D289636CB00A4D7B1 /* SignInViewController.swift in Sources */,
 				8F8961E528961C890092169B /* ThuvaraganViewController.swift in Sources */,
 				8F6C968B289636A800A4D7B1 /* LaunchViewController.swift in Sources */,
+				8F6C96982896519300A4D7B1 /* BikeData.swift in Sources */,
 				8F6C961C2895888900A4D7B1 /* ViewController.swift in Sources */,
 				8F6C968F289636D900A4D7B1 /* LoginViewController.swift in Sources */,
+				8F6C969E289654C800A4D7B1 /* PopUpViewController.swift in Sources */,
 				8F6C96182895888900A4D7B1 /* AppDelegate.swift in Sources */,
 				8F6C961A2895888900A4D7B1 /* SceneDelegate.swift in Sources */,
+				8F6C969A289651B000A4D7B1 /* IshnuViewController.swift in Sources */,
 				8F695F502895BF8A005F5F49 /* ShopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422A6HADH3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StepAhead/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -436,6 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 422A6HADH3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StepAhead/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
