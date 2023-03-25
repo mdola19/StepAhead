@@ -14,7 +14,7 @@ Climate change is a serious issue and is getting worse as time progresses. Peopl
 4. The app should be working successfully
 
 ### Contributions
-- ** Harsharan & Ishnu ** - Created User Interface for shopping and rewards page. Also pitched the idea to the judges.
-- ** Thuvaragan ** - Worked on code merging, navbar, and other integrations.
-- ** Manjot ** - Created the program to pinpoint all locations around Brampton and Map design using MapKit.
-- ** Yatharth ** - Documented the project and prepared the presentation for the pitch.
+- **Harsharan & Ishnu** - Created User Interface for shopping and rewards page. Also pitched the idea to the judges.
+- **Thuvaragan** - Worked on code merging, navbar, and other integrations.
+- **Manjot** - Created the program to pinpoint all locations around Brampton and Map design using MapKit.
+- **Yatharth** - Documented the project and prepared the presentation for the pitch.
